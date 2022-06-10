@@ -15,7 +15,17 @@ const Home: React.FC = () => {
             padding: 0,
             backgroundColor: "#E3F2FD"
         }}>
-            <Login/>
+            <div style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                width: 1000,
+                height: 500,
+                padding: "50px, 0, 50px",
+                backgroundColor: "#fff",
+            }}>
+                <Login/>
+            </div>
         </div>)
 }
 

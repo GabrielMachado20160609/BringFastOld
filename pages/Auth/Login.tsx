@@ -1,15 +1,15 @@
 import React from 'react';
+import { TextField } from '@mui/material';
 
 // import { Container } from './styles';
 
 const Login: React.FC = () => {
     return (
-        <div style={{
-            width: 200,
-            height: 200,
-            backgroundColor: "#fff"
-        }}>
-        </div>
+        <>
+            <h2 style={{
+                fontSize: 36,
+            }}>Cadastre-se</h2>
+        </>
     )
 }
 
